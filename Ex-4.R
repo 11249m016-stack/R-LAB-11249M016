@@ -4,7 +4,7 @@ R program:
 # Student details
 students <- data.frame(
 RollNo = c(101, 102, 103),
-Name = c("Ravi", "Meena", "Karthik"),
+Name = c("KANNA", "SASI", "KARUN"),
 Dept = c("CSE", "ECE", "IT")
 )
 # Student marks
