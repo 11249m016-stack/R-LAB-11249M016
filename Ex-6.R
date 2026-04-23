@@ -2,7 +2,7 @@
 Student Marks Processing (Vectors)
 R program:
 Vector is suitable because all values are of the same data type.
-marks <- c(78, 85, 90, 88, 76)
+marks <- c(88, 85, 99, 88, 67)
 total <- sum(marks)
 average <- mean(marks)
 highest <- max(marks)
@@ -13,7 +13,7 @@ highest
 6.2
 Temperature Monitoring System (Vectors)
 R program:
-temperature <- c(32, 33, 31, 34, 35, 36, 33)
+temperature <- c(32, 36, 31, 32, 39, 36, 33)
 min_temp <- min(temperature)
 max_temp <- max(temperature)
 min_temp
@@ -24,8 +24,8 @@ Employee Profile Storage (Lists)
 R program:
 List is suitable because it supports diﬀerent data types.
 employee <- list(
-ID = 101,
-Name = "Gayathri",
+ID = 901,
+Name = "anusha",
 Salary = 45000,
 Department = "IT"
 )
@@ -38,7 +38,7 @@ Patient Medical Record System (Lists)
 R program:
 patient <- list(
 PatientID = 202,
-Name = "Ravi",
+Name = "taruni",
 Age = 45,
 TestResults = c(120, 140, 130)
 )
