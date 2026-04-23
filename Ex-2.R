@@ -1,9 +1,9 @@
 2.1
 Loan Eligibility Check
 R program:
-age <- 25
-income <- 35000
-if(age > 21 & income > 30000){
+age <- 30
+income <- 135000
+if(age > 21 & income > 230000){
 print("Eligible for Loan")
 } else {
 print("Not Eligible for Loan")
@@ -12,7 +12,7 @@ print("Not Eligible for Loan")
 2.2
 Attendance Requirement
 R program:
-attendance <- 78
+attendance <- 79
 if(attendance >= 75){
 print("Eligible for Exam")
 } else {
@@ -22,7 +22,7 @@ print("Not Eligible for Exam")
 2.3
 Online Discount System
 R program:
-amount <- 4200
+amount <- 4800
 premium_member <- TRUE
 if(amount > 5000 | premium_member){
 print("Discount Applied")
@@ -33,7 +33,7 @@ print("No Discount")
 2.4
 Electricity Bill Slab
 R program:
-units <- 250
+units <- 270
 if(units < 100){
 print("Low Usage")
 } else if(units <= 300){
@@ -45,7 +45,7 @@ print("High Usage")
 2.5
 Employee Bonus Eligibility
 R program:
-experience <- 6
+experience <- 10
 rating <- 4.5
 if(experience > 5 & rating > 4){
 print("Bonus Eligible")
@@ -56,7 +56,7 @@ print("Not Eligible for Bonus")
 2.6
 Password Validation
 R program:
-password<-"secure123"
+password<-"TARUNI@24"
 if(nchar(password) >= 8){
 print("Valid Password")
 } else {
@@ -66,7 +66,7 @@ print("Invalid Password")
 2.7
 Temperature Warning System
 R program:
-temperature <- 45
+temperature <- 36
 if(temperature < 0 | temperature > 40){
 print("Extreme Temperature Warning")
 } else {
@@ -76,7 +76,7 @@ print("Normal Temperature")
 2,8
 Grading System
 R program:
-marks <- 82
+marks <- 89
 if(marks >= 90){
 grade <- "A"
 } else if(marks >= 75){
