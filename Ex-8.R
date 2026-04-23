@@ -2,7 +2,7 @@
 University Course Enrollment
 R Program
 # Data
-departments <- c("CSE", "ECE", "IT", "Mechanical")
+departments <- c("CSE", "ECE", "IT", "Mech")
 students <- c(120, 80, 60, 40)
 # Pie Chart
 pie(
@@ -43,7 +43,6 @@ xlab = "Category",
 ylab = "Sales (₹)",
 col = rainbow(length(category))
 )
-
 8.3
 Online Exam Result Analysis
 R Program
