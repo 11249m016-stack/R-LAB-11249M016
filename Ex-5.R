@@ -1,7 +1,7 @@
 5.1
 Employee Name Standardization
 R program:
-names <- c("arun", "Bala", "chitra")
+names <- c("KANA", "Bala", "KRISH")
 upper_names <- toupper(names)
 name_length <- nchar(upper_names)
 upper_names
@@ -10,21 +10,21 @@ name_length
 5.2
 Student Email Processing
 R prpogram:
-emails <- c("arun@gmail.com", "meena@yahoo.com", "ravi@outlook.com")
+emails <- c("kana@gmail.com", "bala@yahoo.com", "krish@outlook.com")
 usernames <- sub("@.*", "", emails)
 usernames
 
 5.3
 Online Form Input Cleanup
 R program:
-input <- c(" R Programming ", " Data Science ", " AI ")
+input <- c("r programming ", " Data Science ", " AI ")
 clean_input <- trimws(input)
 clean_input
 
 5.4
 Product Code Validation
 R program:
-product_codes <- c("PRD101", "PRD202", "ABC303")
+product_codes <- c("PRD402", "PRD503", "ABC604")
 valid_codes <- startsWith(product_codes, "PRD")
 valid_codes
 
@@ -38,7 +38,7 @@ updated_report
 5.6
 Password Strength Checker
 R program:
-password <- "secure123"
+password <- "porarey24"
 if(nchar(password) >= 8){
 print("Strong Password")
 } else {
